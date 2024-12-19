@@ -1,0 +1,12 @@
+langchain
+langchain_openai
+chainlit
+streamlit
+cfenv
+openai 
+chromadb 
+PyPDF2
+langchain_community
+langgraph
+sentence_transformers
+unstructured

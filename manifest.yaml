@@ -1,0 +1,10 @@
+applications:
+- name: Social_media
+  random-route : true
+  path: ./
+  memory: 2048M
+  buildpacks:
+  - python_buildpack
+  command:  streamlit run app.py --server.port 8080
+  services:
+    - aicore 
