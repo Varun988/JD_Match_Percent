@@ -1,5 +1,5 @@
 applications:
-- name: Social_media
+- name: JD_match
   random-route : true
   path: ./
   memory: 2048M
