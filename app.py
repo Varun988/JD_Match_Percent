@@ -116,7 +116,7 @@ def main():
     print("Welcome to Job Profile Matcher")
 
     # Step 1: Upload Document
-    document_file = st.file_uploader("Upload a job document (PDF, DOCX, etc.)", type=["pdf", "docx", "txt"])
+    document_file = st.file_uploader("Upload a job document (PDF)", type=["pdf"])
 
     if document_file is None:
         print("No file uploaded. Exiting.")
